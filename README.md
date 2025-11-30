@@ -22,9 +22,9 @@
     │   ├── customerbot.ipynb   # Main architecture: routing Billing/Technical/Feedback
     │
     ├── .env (sample)           # Environment variables (API keys)
-    ├── .gitignore
-    ├── License
-    ├── README.md
+    ├── .gitignore              # Specifies files and directories Git should ignore
+    ├── LICENSE                 # GNU GPL license
+    ├── README.md               # Project overview, setup instructions, usage, and documentation
     ├── graph.py                # LangGraph workflow for issue routing
     ├── main.py                 # FastAPI server integrating all agents
     └── requirements.txt        # Project dependencies
