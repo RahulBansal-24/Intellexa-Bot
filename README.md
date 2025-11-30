@@ -21,12 +21,13 @@
     │   ├── botwithtools.ipynb  # Extended bot with tools (Tavily, memory, etc.)
     │   ├── customerbot.ipynb   # Main architecture: routing Billing/Technical/Feedback
     │
+    ├── .env (sample)           # Environment variables (API keys)
+    ├── .gitignore
+    ├── License
+    ├── README.md
     ├── graph.py                # LangGraph workflow for issue routing
     ├── main.py                 # FastAPI server integrating all agents
-    ├── requirements.txt        # Project dependencies
-    ├── .gitignore
-    ├── README.md
-    └── .env (sample)           # Environment variables (API keys)
+    └── requirements.txt        # Project dependencies
 
 ------------------------------------------------------------------------
 
